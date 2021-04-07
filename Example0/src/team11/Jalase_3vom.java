@@ -75,6 +75,7 @@ public class Jalase_3vom {
         //End of Example 3
         */
         //Example 6
+        /*
         int numberOfYears;
         double annualInterestRate;
         double monthlyInterestRate;
@@ -102,7 +103,7 @@ public class Jalase_3vom {
                 (int) (monthlyPayment * 100) / 100.0);
         System.out.println("The total payment is " + 
                 (int) (totalPayment * 100) / 100.0);
-        
+        */
         
 }//end of main() method
     
