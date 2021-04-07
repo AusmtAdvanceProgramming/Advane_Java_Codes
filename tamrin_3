@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class App {
+    public static void main(String[] args) throws Exception {
+        // -> get the number of days
+        Scanner input = new Scanner(System.in);
+        System.out.println("How many days ?");
+        int number_of_day = input.nextInt();
+        // System.out.println(number_of_day);
+        // -> today is ----- ?
+        System.out.println("What day is today ?(sat->0 sun->1 mon->2 tus->3 wed->4 thu->5 fri->6)");
+        int day_of_week = input.nextInt();
+        // -> viwe day of the week
+        int result = (number_of_day % 7) + day_of_week;
+        if (result % 7 == 0) {
+            System.out.println("saturday");
+        }
+        else {
+            if (result % 7 == 1) {
+                System.out.println("sunday");
+            }
+            else {
+                if (result % 7 == 2) {
+                    System.out.println("monday");
+                }
+                else {
+                    if (result % 7 == 3) {
+                        System.out.println("tusday");
+                    }
+                    else {
+                        if (result % 7 == 4) {
+                            System.out.println("wed");
+                        }
+                        else {
+                            if (result % 7 == 5) {
+                                System.out.println("thu");
+                            }
+                            else {
+                                if (result % 7 == 6) {
+                                    System.out.println("friday");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
