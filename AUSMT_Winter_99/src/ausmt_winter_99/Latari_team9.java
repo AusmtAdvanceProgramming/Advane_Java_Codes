@@ -1,10 +1,15 @@
 /*
- * Season3_Example6_Lottery.java
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
+package team9;
+
 /**
- * @author Ali asghar ranjbar
- * @author Zeynab karimi zad
+ *@author Ali asghar ranjbar
+ *@author Zeynab karimi zad
  */
+
 import java.util.Scanner ;
 //*
 public class Latari_team9 {
@@ -16,7 +21,7 @@ public class Latari_team9 {
         int lottery = (int) (Math.random ()*1000) ;
         int lotteryDigit1 , lotteryDigit2 , lotteryDigit3 ;
         //*
-        System.out.println ("________") ;
+        System.out.println ("_______") ;
         System.out.print ("Enter your \"Lottery Code\" please (Three Digits) : ") ;
         code=input.nextInt () ;
         System.out.println ("____") ;
