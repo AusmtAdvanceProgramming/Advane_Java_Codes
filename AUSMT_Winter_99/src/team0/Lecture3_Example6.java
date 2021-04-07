@@ -3,24 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ausmt_winter_99;
+package team0;
 
 /**
  *
  * @author Khazaeinezhad_Vahid
  */
-public class AusmtWinter99 {
+public class Lecture3_Example6 {
     
     public static void main(String[] args){
         
-        double r = Math.random();
-                
-        System.out.println("r=" + r +" ==> "+ (int) (r * 10));
+        System.out.println("Welcome To Java");
         
-        
-        
-        
+    }//end of main() method
     
-    }//end of main method
-    
-}//end of Class
+}//end of class
