@@ -24,20 +24,20 @@ public class Lecture_Example6 {
         Scanner input = new Scanner(System.in);
         
         int lottery = (int)(Math.random()*1000);
-        
+        System.out.println("The lottery number is " + lottery);
         
         
         System.out.println("Enter your lottery pick (three digits): ");
         guess = input.nextInt();
         
         //Get digits from lottery
-        lotteryDigit1 = guess / 100;
-        lotteryDigit2 = guess % 100;
-        lotteryDigit3 = guess % 10;
+        lotteryDigit1 = lottery / 100;
+        lotteryDigit2 =(lottery % 100) / 10;
+        lotteryDigit3 = lottery % 10;
         
         //Get digits from guess
         guessDigit1 = guess / 100;
-        guessDigit2 = guess % 100;
+        guessDigit2 = (guess % 100) / 10;
         guessDigit3 = guess % 10;
         
         System.out.println("The lottery number is " + lottery);
@@ -47,8 +47,11 @@ public class Lecture_Example6 {
             
             System.out.println("Exact match; you win 100,000");
         
-        else if (guessDigit3 == lotteryDigit1 && guessDigit2 == lotteryDigit3 &&
-                guessDigit1 == lotteryDigit2)
+        else if (guessDigit3 == lotteryDigit1 && guessDigit2 == lotteryDigit2 &&
+                guessDigit1 == lotteryDigit3 || guessDigit2 == lotteryDigit3 &&
+                guessDigit1 ==lotteryDigit2 && guessDigit3 == lotteryDigit1 ||
+                guessDigit3 == lotteryDigit3 && guessDigit1 ==lotteryDigit2 &&
+                guessDigit2 == lotteryDigit1)
         
         System.out.println("Match all digits: you win 80,000");
         
@@ -57,9 +60,14 @@ public class Lecture_Example6 {
             
             System.out.println("Two numbers match in order: you win 50,000");
         
-        else if (guessDigit1 == lotteryDigit2 && guessDigit2 == lotteryDigit1
-                || guessDigit1 == lotteryDigit3 && guessDigit2 ==lotteryDigit2
-                || guessDigit3 == lotteryDigit1 && guessDigit2 == lotteryDigit3)
+        else if (guessDigit3 == lotteryDigit2 && guessDigit2 == lotteryDigit1
+                || guessDigit3 == lotteryDigit1 && guessDigit2 ==lotteryDigit2
+                || guessDigit3 == lotteryDigit3 && guessDigit2 == lotteryDigit1
+                || guessDigit3 == lotteryDigit1 && guessDigit2 == lotteryDigit3
+                ||guessDigit2 == lotteryDigit2 && guessDigit1 == lotteryDigit3
+                ||guessDigit2 == lotteryDigit3 && guessDigit1 == lotteryDigit2
+                ||guessDigit2 == lotteryDigit1 && guessDigit1 == lotteryDigit3
+                ||guessDigit2 == lotteryDigit3 && guessDigit1 == lotteryDigit1)
             
             System.out.println("Two numbers match without order: you win 10,000");
         
