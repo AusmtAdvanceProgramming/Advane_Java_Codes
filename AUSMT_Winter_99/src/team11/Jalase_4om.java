@@ -40,18 +40,23 @@ public class Jalase_4om {
         //System.out.println("The lottery number is " + lottery);
         
         //Check the guess
-        if (guess == lottery)
-            System.out.println("Exact match : you win 100,000");
-        else if (guessDigit1 == lotteryDigit2 && guessDigit1 == lotteryDigit3 && guessDigit2 == lotteryDigit1 && guessDigit2 == lotteryDigit3 && guessDigit3 == lotteryDigit1 && guessDigit3 == lotteryDigit2)
-            System.out.println("Match all digits : you win 80,000");
-        else if (guessDigit1 == lotteryDigit1 && guessDigit2 == lotteryDigit2 || guessDigit1 == lotteryDigit1 && guessDigit3 == lotteryDigit3 || guessDigit2 == lotteryDigit2 && guessDigit3 == lotteryDigit3)
-            System.out.println("Match two numbers in order : you win 50,000");
-        else if (guessDigit1 == lotteryDigit2 && guessDigit1 == lotteryDigit3 && guessDigit2 == lotteryDigit1 && guessDigit2 == lotteryDigit3 || guessDigit1 == lotteryDigit2 && guessDigit1 == lotteryDigit3 && guessDigit3 == lotteryDigit1 && guessDigit3 == lotteryDigit2 || guessDigit2 == lotteryDigit1 && guessDigit2 == lotteryDigit3 && guessDigit3 == lotteryDigit1 && guessDigit3 == lotteryDigit2)    
-            System.out.println("Match two numbers without order : you win 10,000");
-        else if (guessDigit1 == lotteryDigit1 || guessDigit1 == lotteryDigit2 || guessDigit1 == lotteryDigit3 || guessDigit2 == lotteryDigit1 || guessDigit2 == lotteryDigit2 || guessDigit2 == lotteryDigit3 || guessDigit3 == lotteryDigit1 || guessDigit3 == lotteryDigit2 || guessDigit3 == lotteryDigit3)
-            System.out.println("Match one number : you win 500 ");
+               if (guess==lottery) 
+            System.out.println ("Exact match : you win 100,000") ;
+        
+        else if (((guessDigit1==lotteryDigit2)||(guessDigit1==lotteryDigit3))&&((guessDigit2==lotteryDigit1)||(guessDigit2==lotteryDigit3))&&((guessDigit3==lotteryDigit1)||(guessDigit3==lotteryDigit2))) 
+            System.out.println ("Match all digits : you win 80,000") ;
+        
+        else if (((guessDigit1==lotteryDigit1)&&(guessDigit2==lotteryDigit2))||((guessDigit1==lotteryDigit1)&&(guessDigit3==lotteryDigit3))||((guessDigit2==lotteryDigit2)&&(guessDigit3==lotteryDigit3))) 
+            System.out.println ("Match two numbers in order : you win 50,000") ;
+        
+        else if (((guessDigit3==lotteryDigit1)&&(guessDigit2==lotteryDigit3))||((guessDigit3==lotteryDigit2)&&(guessDigit1==lotteryDigit3))||((guessDigit1==lotteryDigit2)&&(guessDigit2==lotteryDigit1))) 
+            System.out.println ("Match two numbers without order : you win 10,000") ;
+        
+        else if ((guessDigit1==lotteryDigit1)||(guessDigit1==lotteryDigit2)||(guessDigit1==lotteryDigit3)||(guessDigit2==lotteryDigit1)||(guessDigit2==lotteryDigit2)||(guessDigit2==lotteryDigit3)||(guessDigit3==lotteryDigit1)||(guessDigit3==lotteryDigit2)||(guessDigit3==lotteryDigit3)) 
+            System.out.println ("Match one number : you win 500 ") ;
+        
         else 
-            System.out.println("Sorry, no match");
+            System.out.println ("Sorry , No Match") ;
         
         
         // in code hanoz moshkel dare va agar mitoonid behem komak konid moshkelesh ro peida konam, to ghesmate check the guess moshkelam hast, mamnoon
