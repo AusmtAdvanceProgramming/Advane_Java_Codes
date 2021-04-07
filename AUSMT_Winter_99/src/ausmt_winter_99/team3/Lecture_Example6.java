@@ -25,7 +25,7 @@ public class Lecture_Example6 {
         
         int lottery = (int)(Math.random()*1000);
         
-        System.out.println(lottery);
+        
         
         System.out.println("Enter your lottery pick (three digits): ");
         guess = input.nextInt();
