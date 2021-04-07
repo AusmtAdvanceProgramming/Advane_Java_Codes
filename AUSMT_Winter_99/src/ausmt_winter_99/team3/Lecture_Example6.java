@@ -24,7 +24,7 @@ public class Lecture_Example6 {
         Scanner input = new Scanner(System.in);
         
         int lottery = (int)(Math.random()*1000);
-        System.out.println("The lottery number is " + lottery);
+       
         
         
         System.out.println("Enter your lottery pick (three digits): ");
