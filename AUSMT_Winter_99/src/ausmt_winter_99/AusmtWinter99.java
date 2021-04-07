@@ -13,7 +13,7 @@ public class AusmtWinter99 {
     
     public static void main(String[] args){
     
-        System.out.println("Welcome to Java");
+        System.out.println("Welcome to Java Team6");
     
     }//end of main method
     
