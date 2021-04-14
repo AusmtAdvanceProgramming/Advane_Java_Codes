@@ -45,26 +45,30 @@ public class Lecture2_workshop {
         y3=input.nextDouble () ;  
                
         //*
-        side1=Math.pow ((Math.pow ((x2-x1),2))+(Math.pow ((y2-y1),2)),0.5) ;
-        side2=Math.pow ((Math.pow ((x3-x1),2))+(Math.pow ((y3-y1),2)),0.5) ;
-        side3=Math.pow ((Math.pow ((x3-x2),2))+(Math.pow ((y3-y2),2)),0.5) ;
+        side1 = Math.pow ((Math.pow ((x2 - x1) , 2))+(Math.pow ((y2 - y1) ,2)) , 0.5) ;
+        side2 = Math.pow ((Math.pow ((x3 - x1) , 2))+(Math.pow ((y3 - y1) , 2)) , 0.5) ;
+        side3 = Math.pow ((Math.pow ((x3 - x2), 2))+ (Math.pow ((y3 - y2) , 2)) , 0.5) ;
         //*
-        side1=(int)(side1*100)/100.0 ;
-        side2=(int)(side2*100)/100.0 ;
-        side3=(int)(side3*100)/100.0 ;
+        side1=(int)(side1 * 100) / 100.0 ;
+        side2=(int)(side2 * 100) / 100.0 ;
+        side3=(int)(side3 * 100) / 100.0 ;
         //*
-        degree1=Math.acos ((side1*side1-side2*side2-side3*side3)/(-2*side2*side3)) ;
-        degree2=Math.acos ((side2*side2-side1*side1-side3*side3)/(-2*side1*side3)) ;
-        degree3=Math.acos ((side3*side3-side2*side2-side1*side1)/(-2*side1*side2)) ;
+        degree1 = Math.acos ((side1 * side1 - side2 * side2 - side3 * side3) / (-2 * side2 * side3)) ;
+        degree2 = Math.acos ((side2 * side2 - side1 * side1 - side3 * side3) / (-2 * side1 * side3)) ;
+        degree3 = Math.acos ((side3 * side3 - side2 * side2 - side1 * side1) / (-2 * side1 * side2)) ;
         //*
-        degree1=(int)(degree1*100)/100.0 ;
-        degree2=(int)(degree2*100)/100.0 ;
-        degree3=(int)(degree3*100)/100.0 ;        
+        degree1=(int)(degree1 * 100) / 100.0 ;
+        degree2=(int)(degree2 * 100) / 100.0 ;
+        degree3=(int)(degree3 * 100) / 100.0 ;        
         //*
-        System.out.println (side1 +"," + side2 + "," + side3) ;
-        System.out.println (degree1 + "," + degree2 + ","+ degree3) ;
+        System.out.println ("sides" + side1 + "," + side2 + "," + side3) ;
+        
+        System.out.println ("degrees in radian " + degree1 + "," + degree2 + ","+ degree3) ;
+        
         //*
+        
         System.out.print ("The type of triangle is equal to : ") ;
+        
         //*
         if (side1==side2 && side1==side3 && side2==side3) {
             System.out.println ("Equilateral triangle") ;
