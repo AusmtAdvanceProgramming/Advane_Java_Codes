@@ -27,44 +27,43 @@ public class Practice4 {
         
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Enetr your price, make it less than 100,000 tomans:");
+        System.out.println("Enetr your price, make it less than 100,000:");
         
         price = input.nextInt();
         
-        System.out.println("Choose the Exchange you want enter 1 for 50000\n"
-                + "2 for 10000 , 3 for 5000 ,4 for 2000 , 5 for 1000 and 6 for 500");
+        System.out.println("Choose the Exchange you want enter 1 for 50000  2 for 10000 , 3 for 5000 ,4 for 2000 , 5 for 1000 and 6 for 500");
         
         selection = input.nextInt();
         
         if (selection == 1){
             
             price =(price / Exchange1);
-            System.out.println("your number of Exchange in 50000 is " + price);   
+            System.out.println("Exchange in 50000 is " + price);   
         }
         
         if (selection == 2){
             price /= Exchange2;
-            System.out.println("Your number of Exchange in 10,000 tomans is " + price );
+            System.out.println("Exchange in 10,000  is " + price );
         }
         
         if (selection == 3){
              price /= Exchange3;
-            System.out.println("Your number of Exchange in 5000 tomans is " + price );
+            System.out.println("Exchange in 5000 is " + price );
         }
         
         if (selection == 4){
              price /= Exchange4;
-            System.out.println("Your number of Exchange in 2000 tomans is " + price );
+            System.out.println("Exchange in 2000 is " + price );
         }
         
         if (selection == 5){
             price /= Exchange5;
-            System.out.println("Your number of Exchange in 1000 tomans is " + price );
+            System.out.println("Exchange in 1000  is " + price );
         }
         
         if (selection == 6){
             price /= Exchange6;
-            System.out.println("Your number of Exchange in 500 tomans is " + price );
+            System.out.println("Exchange in 500 is " + price );
         }
         // TODO code application logic here
     }
