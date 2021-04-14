@@ -10,5 +10,9 @@ package team10.quiz1;
  * @author Rayan
  */
 public class Q1 {
+    public static void main(String[] args){
+    
+        System.out.println("");
+    }
     
 }
