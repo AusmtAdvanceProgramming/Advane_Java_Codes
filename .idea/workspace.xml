@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f189d878-7bd7-4268-8bbd-6f4c8af35ebd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AUSMT_Winter_99/src/team0quiz1/Q0.java" beforeDir="false" afterPath="$PROJECT_DIR$/AUSMT_Winter_99/src/team0quiz1/Q0.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,15 +47,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618373956153</updated>
       <workItem from="1618373958579" duration="896000" />
-      <workItem from="1618387603657" duration="2810000" />
+      <workItem from="1618387603657" duration="3309000" />
+      <workItem from="1618392471588" duration="3568000" />
     </task>
     <servers />
   </component>
