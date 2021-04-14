@@ -44,8 +44,6 @@ public class TypeOfTriangle {
             System.out.println("mokhtalef ol azla");
         } else {
             System.out.println("namonazam");
-        }
-            
-    }
-    
+        }   
+    }  
 }
