@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ausmt_winter_99.team3;
+package team3_0;
 
 import java.util.Scanner;
 
