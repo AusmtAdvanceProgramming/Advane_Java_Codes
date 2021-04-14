@@ -16,7 +16,7 @@ public class Practice4 {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-                double price;
+                int price;
         int selection;
         int Exchange1 = 50000;
         int Exchange2 = 10000;
@@ -29,7 +29,7 @@ public class Practice4 {
         
         System.out.println("Enetr your price, make it less than 100,000 tomans:");
         
-        price = input.nextDouble();
+        price = input.nextInt();
         
         System.out.println("Choose the Exchange you want enter 1 for 50000\n"
                 + "2 for 10000 , 3 for 5000 ,4 for 2000 , 5 for 1000 and 6 for 500");
