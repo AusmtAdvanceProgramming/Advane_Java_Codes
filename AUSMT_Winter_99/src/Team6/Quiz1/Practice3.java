@@ -29,7 +29,7 @@ public class Practice3 {
         interval = input.nextInt();
         
         while (interval >= 7) {
-          interval = interval -7;  
+          interval  = interval -7;  
         }
         
         meet_day = today + interval;

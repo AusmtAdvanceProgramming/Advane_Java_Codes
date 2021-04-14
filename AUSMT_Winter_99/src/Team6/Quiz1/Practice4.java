@@ -16,14 +16,7 @@ public class Practice4 {
      * @param args the command line arguments
      */
     public static void main(String args[]) {
-<<<<<<< Updated upstream
                 int price;
-=======
-        
-        Scanner input = new Scanner(System.in);
-        
-            int price;
->>>>>>> Stashed changes
         int selection;
         int Exchange1 = 50000;
         int Exchange2 = 10000;
@@ -32,7 +25,7 @@ public class Practice4 {
         int Exchange5 = 1000;
         int Exchange6 = 500;
         
-        
+        Scanner input = new Scanner(System.in);
         
         System.out.println("Enetr your price, make it less than 100,000:");
         
@@ -50,47 +43,27 @@ public class Practice4 {
         
         if (selection == 2){
             price /= Exchange2;
-<<<<<<< Updated upstream
             System.out.println("Exchange in 10,000  is " + price );
-=======
-            System.out.println("Exchange in 10,000 tomans is " + price );
->>>>>>> Stashed changes
         }
         
         if (selection == 3){
              price /= Exchange3;
-<<<<<<< Updated upstream
             System.out.println("Exchange in 5000 is " + price );
-=======
-            System.out.println("Exchange in 5000 tomans is " + price );
->>>>>>> Stashed changes
         }
         
         if (selection == 4){
              price /= Exchange4;
-<<<<<<< Updated upstream
             System.out.println("Exchange in 2000 is " + price );
-=======
-            System.out.println("Exchange in 2000 tomans is " + price );
->>>>>>> Stashed changes
         }
         
         if (selection == 5){
             price /= Exchange5;
-<<<<<<< Updated upstream
             System.out.println("Exchange in 1000  is " + price );
-=======
-            System.out.println("Exchange in 1000 tomans is " + price );
->>>>>>> Stashed changes
         }
         
         if (selection == 6){
             price /= Exchange6;
-<<<<<<< Updated upstream
             System.out.println("Exchange in 500 is " + price );
-=======
-            System.out.println("Exchange in 500 tomans is " + price );
->>>>>>> Stashed changes
         }
         // TODO code application logic here
     }
