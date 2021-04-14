@@ -24,7 +24,7 @@ public class Practice2 {
         */
         double a, b, c, d, e, f, x, y;
         
-        System.out.println("\tax+by=c \n\tdx+ey=f \nPlease enter coefficients(zarayeb) in a, b, c, d, e, f order: ");
+        System.out.println("\tax+by=c \n\tdx+ey=f \nPlease enter coefficients in a, b, c, d, e, f order: ");
         a = input.nextDouble();
         b = input.nextDouble();
         c = input.nextDouble();
