@@ -17,7 +17,7 @@ public class Question2 {
     
     double x ,y ,a ,b ,c ,d ,e ,f ;
     
-    System.out.println("ax+by=c\ncx+dy=f");
+    System.out.println("ax+by=c\nex+dy=f");
     
     System.out.print("a : ");
     a = input.nextDouble();
