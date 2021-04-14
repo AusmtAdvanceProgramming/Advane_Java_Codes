@@ -21,7 +21,7 @@ public class Q3 {
     public static void main(String[] args) {
         
         double price;
-        int choice;
+        
         int change1 = 50_000;
         int change2 = 10_000;
         int change3 = 5000;
