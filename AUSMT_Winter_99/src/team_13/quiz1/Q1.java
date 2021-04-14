@@ -12,7 +12,10 @@ package team_13.quiz1;
 public class Q1 {
     
     public static void main(String[] args){
-        //کدهاتو اینجا می زاری
+       
+        
+        System.out.println("Welcome to Java!");
+    
     }//end of main() method
     
 }//end of class
