@@ -42,8 +42,8 @@ public class Practice5 {
                    System.out.println("  Tax is : " + tax );
                    break;
                }
-               if(earning >= 33_951 && earning <= 82250){
-                   tax = 8350 * 0.1 + (33.950 - 8350) * 0.15 + (earning - 33950) * 0.25;
+               if(earning >= 33951 && earning <= 82250){
+                   tax = 8350 * 0.1 + (33950 - 8350) * 0.15 + (earning - 33950) * 0.25;
                     System.out.println("  Tax is : " + tax );
                     break;
                }
@@ -53,14 +53,14 @@ public class Practice5 {
                    System.out.println("  Tax is : " + tax );
                    break;
                }
-               if (earning >= 171_551 && earning <= 372_950){
+               if (earning >= 171_551 && earning <= 372950){
                    tax = 8350 * 0.1 + (33950 - 8350) * 0.15 +(82250 - 33950)*0.25
-                           + (171_550 - 82_250) * 0.28 + (earning - 171_550) * 0.33;
+                           + (171550 - 82250) * 0.28 + (earning - 171550) * 0.33;
                    System.out.println("  Tax is : " + tax );
                    break;
                }
                if (earning >= 372_951){
-                   tax = 8_350 * 0.1 + (33_950 - 8350) * 0.15 +(82250 - 33950)*0.25
+                   tax = 8350 * 0.1 + (33950 - 8350) * 0.15 +(82250 - 33950)*0.25
                            + (171550 - 82250) * 0.28 + (372950 - 171550) * 0.33
                            + (earning - 372950) * 0.35;
                    System.out.println("  Tax is : " + tax );
@@ -68,9 +68,9 @@ public class Practice5 {
                }
                break;
            case 2:
-                if (earning >= 0 && earning <= 16_700){
+                if (earning >= 0 && earning <= 16700){
                    tax = earning * 0.1;
-                   System.out.println("your   Tax is : " + tax);
+                   System.out.println("  Tax is : " + tax);
                    break;
                }
                if(earning >= 16701 && earning <=67900){
@@ -78,13 +78,13 @@ public class Practice5 {
                    System.out.println("  Tax is : " + tax );
                    break;
                }
-               if(earning >= 67_901 && earning <= 137050){
-                   tax = 16700 * 0.1 + (67_900 - 16700) * 0.15 + (earning - 67900) * 0.25;
+               if(earning >= 67901 && earning <= 137050){
+                   tax = 16700 * 0.1 + (67900 - 16700) * 0.15 + (earning - 67900) * 0.25;
                     System.out.println("  Tax is : " + tax );
                     break;
                }
-               if (earning >= 137051 && earning <= 208_850){
-                   tax = 16700 * 0.1 + (67900 - 16_700) * 0.15 +(137050 -67900 )*0.25
+               if (earning >= 137051 && earning <= 208850){
+                   tax = 16700 * 0.1 + (67900 - 16700) * 0.15 +(137050 -67900 )*0.25
                            + (earning - 137050) * 0.28;
                    System.out.println("  Tax is : " + tax );
                    break;
@@ -134,7 +134,7 @@ public class Practice5 {
                }
                if (earning >= 186_476){
                    tax = 8_350 * 0.1 + (33950 - 8350) * 0.15 +(68525 - 33950)*0.25
-                           + (104426 - 68525) * 0.28 + (186_475 - 104_426) * 0.33 + (earning - 186475)* 0.35;
+                           + (104426 - 68525) * 0.28 + (186475 - 104426) * 0.33 + (earning - 186475)* 0.35;
                    System.out.println("  Tax is : " + tax );
                    break;
                }
