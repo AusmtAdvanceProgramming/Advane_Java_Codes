@@ -20,14 +20,7 @@ public class Q3 {
      */
     public static void main(String[] args) {
         
-        double price;
-        
-        int change1 = 50_000;
-        int change2 = 10_000;
-        int change3 = 5000;
-        int change4 = 2000;
-        int change5 = 1000;
-        int change6 = 500;
+        double price;        
         int cahngecounter1=0;
         int cahngecounter2=0;
         int cahngecounter3=0;
