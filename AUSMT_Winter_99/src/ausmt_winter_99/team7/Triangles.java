@@ -1,11 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package ausmt_winter_99.team7;
-
 import java.util.Scanner;
 /**
  *
@@ -37,15 +31,12 @@ public class Triangles {
         zel3 = Math.sqrt ( Math.pow ( (x3 - x1), 2 ) + Math.pow ( (y3 - y1), 2 ));
         
         if ( zel1 == zel2  && zel2 == zel3  ) {
-            System.out.println("motasavi ol azla");
+            System.out.println("motasazi azla");
         } else if ( (zel1 == zel2 && zel2 != zel3) || ( zel1 == zel3 && zel3 != zel2) || ( zel2 == zel3 || zel3 != zel1 )) {
-             System.out.println("motasavi ol saqein");
+             System.out.println("motasazi saqein");
         } else if ( (zel1 != zel2 && zel2 != zel3) || ( zel1 != zel3 && zel3 != zel2) || ( zel2 != zel3 || zel3 != zel1 )) {
-            System.out.println("mokhtalef ol azla");
-        } else {
-            System.out.println("namonazam");
+            System.out.println("mokhtalef azla");
         }
-            
     }
     
 }
