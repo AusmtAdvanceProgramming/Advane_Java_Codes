@@ -28,7 +28,12 @@ public class Q3 {
         int change4 = 2000;
         int change5 = 1000;
         int change6 = 500;
-        
+        int cahngecounter1=0;
+        int cahngecounter2=0;
+        int cahngecounter3=0;
+        int cahngecounter4=0;
+        int cahngecounter5=0;
+        int cahngecounter6=0;
         Scanner input = new Scanner(System.in);
         
         System.out.println("Enter your price, make it less than 100,000 tomans:");
@@ -41,34 +46,87 @@ public class Q3 {
         choice = input.nextInt();
         
         if (choice == 1){
-            
-            price =(price / change1);
-            System.out.println("your number of change in 50000 is " + price);   
+           if (price % 50000 == 0){
+              price /=50000;
+              System.out.println(" your chnage in 50000 = " + price);  
+           }
+           else{
+            while (price > 50000){
+                   price -=50000;
+                   cahngecounter1++;
+               }
+            System.out.println("your change in 50000 = " + cahngecounter1);
+           }
         }
         
         if (choice == 2){
-            price /= change2;
-            System.out.println("Your number of change in 10,000 tomans is " + price );
+           if (price % 10000 == 0){
+              price /=10000;
+              System.out.println(" your chnage in 10000 = " + price);  
+           }
+           else{
+            while (price > 10000){
+                   price -=10000;
+                   cahngecounter2++;
+               }
+            System.out.println("your change in 10000 = " + cahngecounter2);
+           }
         }
         
-        if (choice == 3){
-             price /= change3;
-            System.out.println("Your number of change in 5000 tomans is " + price );
+       if (choice == 3){
+           if (price % 5000 == 0){
+              price /=5000;
+              System.out.println(" your chnage in 5000 = " + price);  
+           }
+           else{
+            while (price > 5000){
+                   price -=5000;
+                   cahngecounter3++;
+               }
+            System.out.println("your change in 5000 = " + cahngecounter3);
+           }
         }
         
-        if (choice == 4){
-             price /= change4;
-            System.out.println("Your number of change in 2000 tomans is " + price );
+       if (choice == 4){
+           if (price % 2000 == 0){
+              price /=2000;
+              System.out.println(" your chnage in 2000 = " + price);  
+           }
+           else{
+            while (price > 2000){
+                   price -=2000;
+                   cahngecounter4++;
+               }
+            System.out.println("your change in 1000 = " + cahngecounter4);
+           }
         }
         
         if (choice == 5){
-            price /= change5;
-            System.out.println("Your number of change in 1000 tomans is " + price );
+           if (price % 1000 == 0){
+              price /=1000;
+              System.out.println(" your chnage in 1000 = " + price);  
+           }
+           else{
+            while (price > 1000){
+                   price -=1000;
+                   cahngecounter5++;
+               }
+            System.out.println("your change in 1000 = " + cahngecounter5);
+           }
         }
         
-        if (choice == 6){
-            price /= change6;
-            System.out.println("Your number of change in 500 tomans is " + price );
+        if (choice == 1){
+           if (price % 500 == 0){
+              price /=500;
+              System.out.println(" your chnage in 500 = " + price);  
+           }
+           else{
+            while (price > 500){
+                   price -=500;
+                   cahngecounter6++;
+               }
+            System.out.println("your change in 500 = " + cahngecounter6);
+           }
         }
         
     }
