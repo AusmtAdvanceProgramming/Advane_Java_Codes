@@ -61,6 +61,5 @@ public class Practice3 {
               System.out.println("Friday");
               break;
             }
-        // TODO code application logic here
     }
 }
