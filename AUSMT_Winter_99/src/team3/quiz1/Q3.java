@@ -35,7 +35,7 @@ public class Q3 {
         
            if (price % 50000 == 0){
               price /=50000;
-              System.out.println(" your chnage in 50000 = " + price);  
+              System.out.println(" your change in 50000 = " + price);  
            }
            else if (price % 50000 != 0){
             while (price > 50000){
@@ -47,7 +47,7 @@ public class Q3 {
         
            if (price % 10000 == 0){
               price /=10000;
-              System.out.println(" your chnage in 10000 = " + price);  
+              System.out.println(" your change in 10000 = " + price);  
            }
            else if (price % 10000 != 0){
             while (price > 10000){
@@ -60,7 +60,7 @@ public class Q3 {
         
            if (price % 5000 == 0){
               price /=5000;
-              System.out.println(" your chnage in 5000 = " + price);  
+              System.out.println(" your change in 5000 = " + price);  
            }
            else if (price % 5000 != 0){
             while (price > 5000){
@@ -72,7 +72,7 @@ public class Q3 {
         
            if (price % 2000 == 0){
               price /=2000;
-              System.out.println(" your chnage in 2000 = " + price);  
+              System.out.println(" your change in 2000 = " + price);  
            }
            else if (price % 2000 != 0){
             while (price > 2000){
@@ -86,7 +86,7 @@ public class Q3 {
         
            if (price % 1000 == 0){
               price /=1000;
-              System.out.println(" your chnage in 1000 = " + price);  
+              System.out.println(" your change in 1000 = " + price);  
            }
            else if (price % 1000 != 0){
             while (price > 1000){
@@ -100,7 +100,7 @@ public class Q3 {
        
            if (price % 500 == 0){
               price /=500;
-              System.out.println(" your chnage in 500 = " + price);  
+              System.out.println(" your change in 500 = " + price);  
            }
            else if (price % 500 != 0){
             while (price > 500){
