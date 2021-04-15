@@ -28,11 +28,11 @@ public class App {
                     }
                     else {
                         if (result % 7 == 4) {
-                            System.out.println("wed");
+                            System.out.println("wednsday");
                         }
                         else {
                             if (result % 7 == 5) {
-                                System.out.println("thu");
+                                System.out.println("thursday");
                             }
                             else {
                                 if (result % 7 == 6) {
