@@ -5,6 +5,8 @@
  */
 package Team6.Workshop2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Mahdi
