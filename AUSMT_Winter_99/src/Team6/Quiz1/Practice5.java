@@ -180,6 +180,6 @@ public class Practice5 {
                System.out.print("InValid Number ");
                break;
        }
-        // TODO code application logic here
+
     }
 }
