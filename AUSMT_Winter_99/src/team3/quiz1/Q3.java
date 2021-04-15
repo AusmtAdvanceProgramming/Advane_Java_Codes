@@ -21,12 +21,12 @@ public class Q3 {
     public static void main(String[] args) {
         
         int price;        
-        int cahngecounter1=0;
-        int cahngecounter2=0;
-        int cahngecounter3=0;
-        int cahngecounter4=0;
-        int cahngecounter5=0;
-        int cahngecounter6=0;
+        int changecounter1=0;
+        int changecounter2=0;
+        int changecounter3=0;
+        int changecounter4=0;
+        int changecounter5=0;
+        int changecounter6=0;
         Scanner input = new Scanner(System.in);
         
         System.out.println("Enter your price, make it less than 100,000 tomans:");
@@ -40,9 +40,9 @@ public class Q3 {
            else if (price % 50000 != 0){
             while (price > 50000){
                    price -=50000;
-                   cahngecounter1++;
+                   changecounter1++;
                }
-            System.out.println("your change in 50000 = " + cahngecounter1);
+            System.out.println("your change in 50000 = " + changecounter1);
            }
         
            if (price % 10000 == 0){
@@ -52,9 +52,9 @@ public class Q3 {
            else if (price % 10000 != 0){
             while (price > 10000){
                    price -=10000;
-                   cahngecounter2++;
+                   changecounter2++;
                }
-            System.out.println("your change in 10000 = " + cahngecounter2);
+            System.out.println("your change in 10000 = " + changecounter2);
            }
         
         
@@ -65,9 +65,9 @@ public class Q3 {
            else if (price % 5000 != 0){
             while (price > 5000){
                    price -=5000;
-                   cahngecounter3++;
+                   changecounter3++;
                }
-            System.out.println("your change in 5000 = " + cahngecounter3);
+            System.out.println("your change in 5000 = " + changecounter3);
            }
         
            if (price % 2000 == 0){
@@ -77,9 +77,9 @@ public class Q3 {
            else if (price % 2000 != 0){
             while (price > 2000){
                    price -=2000;
-                   cahngecounter4++;
+                   changecounter4++;
                }
-            System.out.println("your change in 2000 = " + cahngecounter4);
+            System.out.println("your change in 2000 = " + changecounter4);
            }
         
         
@@ -91,9 +91,9 @@ public class Q3 {
            else if (price % 1000 != 0){
             while (price > 1000){
                    price -=1000;
-                   cahngecounter5++;
+                   changecounter5++;
                }
-            System.out.println("your change in 1000 = " + cahngecounter5);
+            System.out.println("your change in 1000 = " + changecounter5);
            }
         
         
@@ -105,9 +105,9 @@ public class Q3 {
            else if (price % 500 != 0){
             while (price > 500){
                    price -=500;
-                   cahngecounter6++;
+                   changecounter6++;
                }
-            System.out.println("your change in 500 = " + cahngecounter6);
+            System.out.println("your change in 500 = " + changecounter6);
            }
         
     }
