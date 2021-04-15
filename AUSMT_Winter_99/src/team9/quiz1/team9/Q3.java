@@ -14,66 +14,98 @@ import java.util.Scanner ;
 public class Q3 {
     public static void main(String[] args) {
     
-    int cash;
-    int Amounts;
-    int cash1;
-    int cash2;
-    int cash3;
-    int cash4;
-    int cash5;
-    int cash6;
-    
-    
-    Scanner input = new Scanner (System.in);
-    
-    System.out.print("Enter the amount(The amount entered is less than $ 100,000) :");
-    cash = input.nextInt();
    
         
-    System.out.print("How much cash do you want to spend?:(Enter 0 if you want to exit the program)"
-              + "\n [1]-50000$ \n [2]-10000 \n [3]-5000 \n [4]-2000 \n [5]-1000 \n [6]-500" );
-    
-    Amounts = input.nextInt();
-    
-    switch(Amounts) {
+        double pay;
+        int ELX1=0;
+        int ELX2=0;
+        int ELX3=0;
+        int ELX4=0;
+        int ELX5=0;
+        int ELX6=0;
+        Scanner input = new Scanner(System.in);
         
-        case 1 :
-            cash1=cash/50_000;
-            System.out.print(cash1);
-            System.out.print("to $ 50000");
-            break;
-            
-       case 2 :
-            cash2=cash/10_000;
-            System.out.print(cash2);  
-            System.out.print("to $ 10000"); 
-            break;
-            
-        case 3 :
-            cash3=cash/5000;
-            System.out.print(cash3); 
-            System.out.print("to $ 5000"); 
-            break;
-            
-        case 4 :
-            cash4=cash/2000;
-            System.out.print(cash4); 
-            System.out.print("to $ 500");
-            break;
-            
-        case 5 :
-            cash5=cash/1000;
-            System.out.print(cash5); 
-            System.out.print("to $ 1000"); 
-            break;
-            
-        case 6 :
-            cash6=cash/500;
-            System.out.print(cash6); 
-            System.out.print("to $ 500"); 
-            break;
-              
-                    
-     }   
-   }
+        System.out.println("mablaq ra vared konid , kamtar az 100000 toman bashad :");
+        
+        pay = input.nextDouble();
+        
+           if (pay % 50000 == 0){
+              pay /=50000;
+              System.out.println(" tedad  50000 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 50000 != 0){
+            while (pay > 50000){
+                   pay -=50000;
+                   ELX1++;
+               }
+            System.out.println("tedad  50000 hezar tomani ha = " + ELX1);
+           }
+        
+           if (pay % 10000 == 0){
+              pay /=10000;
+              System.out.println(" tedad  10000 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 10000 != 0){
+            while (pay > 10000){
+                   pay -=10000;
+                   ELX2++;
+               }
+            System.out.println("tedad  10000 hezar tomani ha = " + ELX2);
+           }
+        
+        
+           if (pay % 5000 == 0){
+              pay /=5000;
+              System.out.println(" tedad  5000 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 5000 != 0){
+            while (pay > 5000){
+                   pay -=5000;
+                   ELX3++;
+               }
+            System.out.println("tedad  5000 hezar tomani ha = " + ELX3);
+           }
+        
+           if (pay % 2000 == 0){
+              pay /=2000;
+              System.out.println(" tedad  2000 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 2000 != 0){
+            while (pay > 2000){
+                   pay -=2000;
+                   ELX4++;
+               }
+            System.out.println("tedad  2000 hezar tomani ha = " + ELX4);
+           }
+        
+        
+        
+           if (pay % 1000 == 0){
+              pay /=1000;
+              System.out.println(" tedad  1000 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 1000 != 0){
+            while (pay > 1000){
+                   pay -=1000;
+                   ELX5++;
+               }
+            System.out.println("tedad  1000 hezar tomani ha = " + ELX5);
+           }
+        
+        
+       
+           if (pay % 500 == 0){
+              pay /=500;
+              System.out.println(" tedad  500 hezar tomani ha = " + pay);  
+           }
+           else if (pay % 500 != 0){
+            while (pay > 500){
+                   pay -=500;
+                   ELX6++;
+               }
+            System.out.println("tedad  500 hezar tomani ha = " + ELX6);
+           }
+        
+    }
+    
 }
