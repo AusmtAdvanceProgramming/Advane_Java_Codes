@@ -20,7 +20,7 @@ public class Q3 {
      */
     public static void main(String[] args) {
         
-        double price;        
+        int price;        
         int cahngecounter1=0;
         int cahngecounter2=0;
         int cahngecounter3=0;
@@ -31,7 +31,7 @@ public class Q3 {
         
         System.out.println("Enter your price, make it less than 100,000 tomans:");
         
-        price = input.nextDouble();
+        price = input.nextInt();
         
            if (price % 50000 == 0){
               price /=50000;
@@ -79,7 +79,7 @@ public class Q3 {
                    price -=2000;
                    cahngecounter4++;
                }
-            System.out.println("your change in 1000 = " + cahngecounter4);
+            System.out.println("your change in 2000 = " + cahngecounter4);
            }
         
         
