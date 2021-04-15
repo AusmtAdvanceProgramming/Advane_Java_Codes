@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Advane_Java_Codes.iml" filepath="$PROJECT_DIR$/Advane_Java_Codes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tamrin/Tamrin.iml" filepath="$PROJECT_DIR$/Tamrin/Tamrin.iml" />
+    </modules>
+  </component>
+</project>
