@@ -19,7 +19,7 @@ public class Practice4 {
         
         Scanner input = new Scanner(System.in); 
         
-        double Amount;        
+        int Amount;        
         int counter1 = 0;
         int counter2 = 0;
         int counter3 = 0;
@@ -28,86 +28,86 @@ public class Practice4 {
         int counter6 = 0;
         
         
-        System.out.println("Enter your Amount, less than 100,000:");
+        System.out.println("Please enter your Amount, less than 100,000: ");
         
-        Amount = input.nextDouble();
+            Amount = input.nextInt();
         
-           if (Amount % 50000 == 0){
-              Amount /=50000;
-              System.out.println(" Exchange in 50000 = " + Amount);  
-           }
-           else if (Amount % 50000 != 0){
-            while (Amount > 50000){
-                   Amount -=50000;
-                   counter1++;
-               }
+            if (Amount % 50000 == 0){
+                Amount /=50000;
+                System.out.println(" Exchange in 50000 = " + Amount);  
+            }
+            else if (Amount % 50000 != 0){
+                while (Amount > 50000){
+                    Amount -=50000;
+                    counter1++;
+                }
             System.out.println(" Exchange in 50000 = " + counter1);
-           }
+            }
         
-           if (Amount % 10000 == 0){
-              Amount /=10000;
-              System.out.println(" Exchange in 10000 = " + Amount);  
-           }
-           else if (Amount % 10000 != 0){
-            while (Amount > 10000){
+            if (Amount % 10000 == 0){
+                Amount /=10000;
+                System.out.println(" Exchange in 10000 = " + Amount);  
+            }
+            else if (Amount % 10000 != 0){
+                while (Amount > 10000){
                    Amount -=10000;
                    counter2++;
-               }
+                }
             System.out.println(" EXchange in 10000 = " + counter2);
-           }
+            }
         
         
-           if (Amount % 5000 == 0){
-              Amount /=5000;
-              System.out.println(" Exchange in 5000 = " + Amount);  
-           }
-           else if (Amount % 5000 != 0){
-            while (Amount > 5000){
-                   Amount -=5000;
-                   counter3++;
-               }
+            if (Amount % 5000 == 0){
+                Amount /=5000;
+                System.out.println(" Exchange in 5000 = " + Amount);  
+            }
+            else if (Amount % 5000 != 0){
+                while (Amount > 5000){
+                    Amount -=5000;
+                    counter3++;
+                }
             System.out.println(" Exchange in 5000 = " + counter3);
-           }
+            }
         
-           if (Amount % 2000 == 0){
-              Amount /=2000;
-              System.out.println(" Exchange in 2000 = " + Amount);  
-           }
-           else if (Amount % 2000 != 0){
-            while (Amount > 2000){
-                   Amount -=2000;
-                   counter4++;
-               }
-            System.out.println(" Exchange in 1000 = " + counter4);
-           }
+            if (Amount % 2000 == 0){
+                Amount /=2000;
+                System.out.println(" Exchange in 2000 = " + Amount);  
+            }
+            else if (Amount % 2000 != 0){
+                while (Amount > 2000){
+                    Amount -=2000;
+                    counter4++;
+                }
+            System.out.println(" Exchange in 2000 = " + counter4);
+            }
         
         
         
-           if (Amount % 1000 == 0){
-              Amount /=1000;
-              System.out.println(" Exchange in 1000 = " + Amount);  
-           }
-           else if (Amount % 1000 != 0){
-            while (Amount > 1000){
-                   Amount -=1000;
-                   counter5++;
-               }
+            if (Amount % 1000 == 0){
+                Amount /=1000;
+                System.out.println(" Exchange in 1000 = " + Amount);  
+            }
+            else if (Amount % 1000 != 0){
+                while (Amount > 1000){
+                    Amount -=1000;
+                    counter5++;
+                }
             System.out.println(" Exchange in 1000 = " + counter5);
-           }
+            }
         
         
        
-           if (Amount % 500 == 0){
-              Amount /=500;
+            if (Amount % 500 == 0){
+                Amount /=500;
               System.out.println(" Exchange in 500 = " + Amount);  
-           }
-           else if (Amount % 500 != 0){
-            while (Amount > 500){
-                   Amount -=500;
-                   counter6++;
-               }
+            }
+            else if (Amount % 500 != 0){
+                while (Amount > 500){
+                    Amount -=500;
+                    counter6++;
+                }
             System.out.println(" Exchange in 500 = " + counter6);
-           }
+            }
           
         // TODO code application logic here
     }
