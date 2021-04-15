@@ -152,5 +152,5 @@ public class App {
             }
         }
         System.out.println("lottery number is " + main_lottery_number);
-    }
+    } 
 }   
