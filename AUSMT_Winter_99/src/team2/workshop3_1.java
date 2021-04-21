@@ -27,11 +27,11 @@ public class workshop3_1 {
             
             if (guess == number){
                 
-                System.out.println("congratulations your guess was right!!!");
+                System.out.println(" your guess was right");
                      
             }
             else if(guess > number){
-                System.out.println("your guess was higher than the  number please try again\n");
+                System.out.println("your guess was higher than the  number please try again.\n");
                 
             }
             else if (guess < number){
