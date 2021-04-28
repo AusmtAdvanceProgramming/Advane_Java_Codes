@@ -31,9 +31,9 @@ public class Q1 {
        
         if (number1 > number2 )  
            
-        GCD = number1; 
-        else
         GCD = number2; 
+        else
+        GCD = number1; 
        
         while (number1 % GCD != 0 || number2 % GCD !=0 ){
            
