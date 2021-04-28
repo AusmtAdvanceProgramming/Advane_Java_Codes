@@ -29,7 +29,7 @@ public class Q0 {
         tempo=tempo.toLowerCase () ;
         //***
         for (i=0;i<length;i++) {
-            if (series.charAt (i)=='0') {
+            if (series.charAt (i)=='*') {
                 continue ;
             }
             for (j=0;j<length;j++) {
@@ -39,7 +39,7 @@ public class Q0 {
             }
             //***
             if (counter>=2) {
-                series=series.replace (series.charAt (i),'0') ;
+                series=series.replace (series.charAt (i),'*') ;
             }
             //***
             System.out.println ("__________") ;
