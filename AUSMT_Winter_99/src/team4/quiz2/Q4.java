@@ -16,6 +16,7 @@ public class Q4 {
         int counter=0 ;
         int i=1 , j=1 ;
         //***
+        System.out.println ("____________________") ;
         for (i=1;flag<40;i++) {
             for (j=1;j<=i;j++) {
                 if (i%j==0) {
@@ -34,5 +35,6 @@ public class Q4 {
             //***
             counter=0 ;   
         }
+        System.out.println ("____________________") ;
     }
 }
