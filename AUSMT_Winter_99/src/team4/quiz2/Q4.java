@@ -16,7 +16,7 @@ public class Q4 {
         int counter=0 ;
         int i=1 , j=1 ;
         //***
-        for (i=1;i<=1000;i++) {
+        for (i=1;flag<=40;i++) {
             for (j=1;j<=i;j++) {
                 if (i%j==0) {
                     counter++ ;
@@ -24,7 +24,7 @@ public class Q4 {
             }
             //***
             if (counter==2) {
-                System.out.print (i+" ") ;
+                System.out.print (i+"\t") ;
                 flag++ ;
                 //***
                 if (flag%8==0) {
@@ -33,10 +33,6 @@ public class Q4 {
             }
             //***
             counter=0 ;   
-            //***
-            if (flag==40) {
-                break ;
-            }
         }
     }
 }

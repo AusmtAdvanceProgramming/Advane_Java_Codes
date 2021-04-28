@@ -13,7 +13,6 @@ public class Q0 {
         Scanner input=new Scanner (System.in) ;
         //***
         String series ;
-        char letter ;
         int length ;
         int counter=0 ;
         int i=0 , j=0 ;
