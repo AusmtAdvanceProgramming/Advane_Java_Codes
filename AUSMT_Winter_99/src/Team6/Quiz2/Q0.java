@@ -35,7 +35,7 @@ public class Q0 {
         temp=temp.toLowerCase () ;
 
         for (i=0; i < length; i++) {
-            if (str.charAt (i) == '*') {
+            if (str.charAt (i) == '&') {
                 continue;
             }
             for (j=0; j < length; j++) {
@@ -45,7 +45,7 @@ public class Q0 {
             }
 
             if (counter >= 2) {
-                str=str.replace (str.charAt (i),'*');
+                str=str.replace (str.charAt (i),'&');
             }
 
 
