@@ -16,7 +16,6 @@ public class Q0 {
         String tempo ;
         int length ;
         int counter=0 ;
-        int flag=0 ;
         int i=0 , j=0 ;
         //***
         System.out.println ("____________________") ;
