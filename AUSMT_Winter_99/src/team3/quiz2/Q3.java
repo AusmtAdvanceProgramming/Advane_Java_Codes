@@ -17,54 +17,64 @@ public class Q3 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] hex = {0,0,0,0,0,0,0,0,0,0};
-        int counter = 0;
-        int decimal;
-        int i = 0;
+        Scanner input=new Scanner (System.in) ;
+       
+        int decimal ;
+        int temp ;
+        int[] hexdecimal = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0} ;
+        int counter = 0 ;
+        int i = 0 ;
         
-        Scanner input = new Scanner(System.in);
         
-        System.out.println("Enter the number you want to convert to hexdecimal: ");
-        decimal = input.nextInt();
+        System.out.print ("Enter your number to convert to hexdecimal : ") ;
+        decimal = input.nextInt () ;
         
-        while (decimal > 0){
-            //this while is for dividing the decimal number into hex by using array
-           //the remaininig of decimal number will be saved into hex in will also divide it self
-           //into 16 every time
-            hex[i] = decimal % 16;
-            decimal /= 16;
-            counter++;
-            i++;
+        
+        temp = decimal ;
+        
+        while (decimal > 0) {
             
+            hexdecimal[i] =  decimal % 16 ;
+            decimal /= 16 ;
+            counter++ ;
+            i++ ;
         }//end of while
-     
-        for (i = counter - 1; i >= 0; i--){
-            switch(hex[i]){
-                //using switch to determine the remaining or quotient
-                //because in hexdecimal numbers between 10 to 15 is letters A to F
+       
+        System.out.print ("The number \"" + temp + "\" in Decimal base is equal to \"") ;
+      
+        for (i = counter - 1; i>=0; i--) {
+            switch (hexdecimal[i]) {
                 case 10 :
-                    System.out.print("A");
-                    break;
+                    System.out.print ("A") ;
+                    break ;
                 case 11 :
-                    System.out.print("B");
-                    break;
+                    System.out.print ("B") ;
+                    break ;
                 case 12 :
-                    System.out.print("C");
+                    System.out.print ("C") ;
+                    break ;
                 case 13 :
-                    System.out.print("D");
+                    System.out.print ("D") ;
+                    break ;
                 case 14 :
-                    System.out.print("E");
+                    System.out.print ("E") ;
+                    break ;
                 case 15 :
-                    System.out.print("F");
+                    System.out.print ("F") ;
+                    break ;                    
                 default :
-                    System.out.print(hex[i]);
-                
+                    System.out.print (hexdecimal[i]) ;
             }//end of switch
             
-        }//end of for 
-        System.out.println();
-        System.out.println("****************************");
+        }//end of for
         
+        System.out.print ("\" in Hexadecimal base\n") ;
+        
+        System.out.println ("The Hexadecimal function that defined in \"Java\" answers : "+Integer.toHexString (temp).toUpperCase ()) ;
+        
+        System.out.println("The program ended");
+        
+        System.out.println("**************************");
     }//end of method
     
 }//end of class

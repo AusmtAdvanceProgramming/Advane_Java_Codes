@@ -13,47 +13,39 @@ package team3.quiz2;
  */
 import java.util.Scanner;
 public class Q2 {
-
-    /**
-     * @param args the command line arguments
-     */
-
     public static void main (String[] args) {
         Scanner input=new Scanner (System.in) ;
-        
+       
         double deposit ;
         double profit ;
-        double wholeSalary ;
-        double extraMoney ;
-        int year=0 ;
-       
+        double year ;
+        int provision1 ;
+        int provision2 ;
+        
         
         System.out.print ("Enter the  amount of your deposit please : $") ;
         
-        deposit = input.nextDouble () ;
+        deposit=input.nextDouble () ;
         
         System.out.print ("Enter the profit on your deposit please : %") ;
         
-        profit = input.nextDouble () ;
+        profit=input.nextDouble () ;
         
+        profit = 1 + (profit/100) ;
         
+        year=(int) (((Math.log(2)) / (Math.log(profit))) * 10) / 10.0 ;//the formula for obtaning
+        //year using log in method math
         
-        wholeSalary = deposit*2 ;
+        provision1=(int) year ;
+        
+        provision2 = (int)((year - provision1) * 10) ;
+        
+        provision2 = (int)(provision2 * 12 / 10) ;
        
-        while (deposit<wholeSalary) {
-            deposit = deposit + (( deposit * profit) / 100) ;
-            year++ ;
-        }//end of while
-        
-        extraMoney = (int)((deposit - wholeSalary) * 100) / 100 ;
-        
-        System.out.println ("After \"" + year + "\" years your deposit will double") ;
-        
-        if (extraMoney > 0) {
-            System.out.println ("Now you have \"$" + extraMoney + "\" more than double your deposit") ;
-        }//end of if
+        System.out.println ("After " + provision1 + " years and " + provision2 + " months your deposit will double") ;
         
         System.out.println ("End of programm") ;
-    }//end of method
-    
-}//end of class
+        
+        System.out.println("****************************");
+    }
+}

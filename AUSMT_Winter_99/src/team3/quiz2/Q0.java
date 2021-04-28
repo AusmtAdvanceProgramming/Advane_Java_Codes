@@ -8,37 +8,54 @@ package team3.quiz2 ;
  *team3
  */
 import java.util.Scanner ;
-//*
+
 public class Q0 {
     public static void main (String[] args) {
   
-        String string;
+        String string ;
+        String letter ;
         int length ;
         int counter = 0 ;
-         
+        int i=0 , j=0 ;
+
+        
          Scanner input=new Scanner (System.in) ;
+
+        System.out.print ("Enter your  \"String\" please : ") ;
         
-        System.out.print ("Enter your desired \"String\" please : ") ;
-        string=input.next () ;
-       
-        length=string.length () ;
-        string=string.toLowerCase () ;
+        string = input.next () ;
         
-        for (int i = 0;i < length; i++) {
-            
-            for (int j = 0;j < length; j++) {
+        letter = string ;//because we are replacing the letter with *  if the counter is 
+        //more than 2 we have to save it in String letter
+        //to shoe it when we want
+
+        length = string.length () ;
+        string = string.toLowerCase () ;//for comparing the letters equaly
+        letter = letter.toLowerCase () ;//for comparng the letters equaly
+        
+        for (i = 0;i < length; i++) {
+            if (string.charAt (i)=='*') {
+                continue ;
+            }
+            for (j = 0;j < length; j++) {
                 
-                if (string.charAt (i) == string.charAt (j)) {
-                    counter++;
+                if (string.charAt (i)==string.charAt (j)) {
+                    counter++ ;
                 }
-            }//end of j
+            }//end of for j
+
+            if (counter>=2) {
+                
+                string=string.replace (string.charAt (i),'*') ;
+            }//end of if
+
+            System.out.println ("The letter \""+letter.charAt (i)+"\" is repeated \""+counter+"\" times in \""+letter+"\" series ") ;
+            counter=0 ;
             
-            
-            System.out.println ("The letter \""+string.charAt (i)+ "\" is repeated \"" + counter +"\" times in \"" + string + "\" series ") ;
-            
-            counter = 0 ;
-        }//end of i
-        System.out.println ("End of programm.") ;
+        }//end of for i
+        System.out.println("End of programm");
+        
+        System.out.println("****************************");
     }//end of method
     
 }//end of class
