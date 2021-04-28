@@ -15,8 +15,8 @@ public class Q2 {
         double deposit ;
         double profit ;
         double year ;
-        double tempo1 ;
-        double tempo2 ;
+        int tempo1 ;
+        int tempo2 ;
         //***
         System.out.println ("____________________") ;
         System.out.print ("Enter the initial amount of your deposit please : $") ;
@@ -29,9 +29,9 @@ public class Q2 {
         year=(int) (((Math.log(2))/(Math.log(profit)))*10)/10.0 ;
         //***
         tempo1=(int) year ;
-        tempo2=year-tempo1 ;
+        tempo2=(int) ((year-tempo1)*10) ;
         //***
-        tempo2=(int) (tempo2*12) ;
+        tempo2=(int) (tempo2*12/10) ;
         //***
         System.out.println ("After \""+tempo1+"\" years and \""+tempo2+"\" months your deposit will double") ;
         System.out.println ("____________________") ;
