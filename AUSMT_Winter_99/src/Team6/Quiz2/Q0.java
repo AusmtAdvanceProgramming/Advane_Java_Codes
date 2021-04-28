@@ -17,34 +17,43 @@ public class Q0 {
      */
     public static void main(String args[]) {
         
-        Scanner input = new Scanner (System.in);
+        Scanner input=new Scanner (System.in) ;
 
-        
         String str;
+        String temp;
         int length;
         int counter = 0;
-        int i, j;
+        int i= 0, j= 0;
 
-        
-        System.out.print ("Input your intended String please : ");
-        str = input.next ();
 
-        length = str.length ();
-        str = str.toLowerCase ();
+        System.out.print ("Enter your desired \"String\" please : ");
+        str=input.next () ;
+        temp=str ;
 
-        for (i = 0; i < length; i++) {
-            for (j = 0; j < length; j++) {
-                if (str.charAt (i) == str.charAt (j)) { 
-                    counter++;                               
+        length=str.length () ;
+        str=str.toLowerCase () ;
+        temp=temp.toLowerCase () ;
+
+        for (i=0; i < length; i++) {
+            if (str.charAt (i) == '*') {
+                continue;
+            }
+            for (j=0; j < length; j++) {
+                if (str.charAt (i) == str.charAt (j)) {
+                    counter++;
                 }
             }
-            
-            System.out.println ("The letter "+str.charAt (i)+"\" is repeated "+counter+" times in "+str+" series.") ;
 
-            
+            if (counter >= 2) {
+                str=str.replace (str.charAt (i),'*');
+            }
+
+
+
+            System.out.println ("The letter  "+temp.charAt (i)+"  is repeated  "+counter+"  times in  "+temp+"  series ") ;
+
             counter = 0;
         }
-        
         // TODO code application logic here
     }
 }
