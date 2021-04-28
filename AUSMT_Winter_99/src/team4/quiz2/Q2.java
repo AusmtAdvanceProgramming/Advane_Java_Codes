@@ -31,7 +31,7 @@ public class Q2 {
         tempo1=(int) year ;
         tempo2=year-tempo1 ;
         //***
-        tempo2=(int) (tempo2*1.2) ;
+        tempo2=(int) (tempo2*12) ;
         //***
         System.out.println ("After \""+tempo1+"\" years and \""+tempo2+"\" months your deposit will double") ;
         System.out.println ("____________________") ;
