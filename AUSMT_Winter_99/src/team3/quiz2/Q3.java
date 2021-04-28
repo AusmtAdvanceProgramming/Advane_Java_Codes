@@ -62,6 +62,8 @@ public class Q3 {
             }//end of switch
             
         }//end of for 
+        System.out.println();
+        System.out.println("****************************");
         
     }//end of method
     

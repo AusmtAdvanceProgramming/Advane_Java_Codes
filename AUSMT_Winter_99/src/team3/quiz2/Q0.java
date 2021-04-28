@@ -29,12 +29,12 @@ public class Q0 {
             for (int j = 0;j < length; j++) {
                 
                 if (string.charAt (i) == string.charAt (j)) {
-                    counter++ ;
+                    counter++;
                 }
             }//end of j
             
             
-            System.out.println ("The letter \""+ string.charAt (i) + "\" is repeated \"" + counter +"\" times in \"" + string + "\" series ") ;
+            System.out.println ("The letter \""+string.charAt (i)+ "\" is repeated \"" + counter +"\" times in \"" + string + "\" series ") ;
             
             counter = 0 ;
         }//end of i
