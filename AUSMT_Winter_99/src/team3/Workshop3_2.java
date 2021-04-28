@@ -1,7 +1,7 @@
 /*
  * Workshop3_2.java
  */
-package team3_0 ;
+package team3 ;
 /**
  * @author amirali ghaumi
  * @author naser riazi
