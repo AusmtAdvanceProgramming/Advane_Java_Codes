@@ -1,5 +1,4 @@
 /*
-/*
  * Q0.java
  */
 package team4.quiz2 ;
@@ -27,6 +26,7 @@ public class Q0 {
         //***
         length=series.length () ;
         series=series.toLowerCase () ;
+        tempo=tempo.toLowerCase () ;
         //***
         for (i=0;i<length;i++) {
             if (series.charAt (i)=='0') {
