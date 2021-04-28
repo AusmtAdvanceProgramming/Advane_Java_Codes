@@ -10,7 +10,7 @@ import java.util.Scanner ;
 //***
 public class Season4_Workshop2 {
     public static void main (String[] args) {
-<<<<<<< HEAD:AUSMT_Winter_99/src/team4/Season4_Workshop2.java
+
         Scanner input=new Scanner (System.in) ;
         //***
         double x1 , y1 ;
@@ -20,8 +20,8 @@ public class Season4_Workshop2 {
         double A , B , C ;
         //***
         System.out.println ("____________________") ;
-=======
-          Scanner input=new Scanner (System.in) ;
+
+
        
         double pointx1 , pointy1 ;
         double pointx2 , pointy2 ;
@@ -30,26 +30,26 @@ public class Season4_Workshop2 {
         double pointA , pointB , pointC ;
         
         
->>>>>>> 5a679b402bf3bafbf6914922589fce433c35b347:AUSMT_Winter_99/src/workshop2.java
+
         System.out.println ("Enter the coordinates of the first point : ") ;
         System.out.print ("x : ") ;
-        pointx1=input.nextDouble () ;
+        x1=input.nextDouble () ;
         System.out.print ("y : ") ;
-        pointy1=input.nextDouble () ;
+        y1=input.nextDouble () ;
         
         
         System.out.println ("Enter the coordinates of the second point : ") ;
         System.out.print ("x : ") ;
-        pointx2=input.nextDouble () ;
+        x2=input.nextDouble () ;
         System.out.print ("y : ") ;
-        pointy2=input.nextDouble () ;  
+        y2=input.nextDouble () ;  
         
         
         System.out.println ("Enter the coordinates of the third point : ") ;
         System.out.print ("x : ") ;
-        pointx3=input.nextDouble () ;
+        x3=input.nextDouble () ;
         System.out.print ("y : ") ;
-<<<<<<< HEAD:AUSMT_Winter_99/src/team4/Season4_Workshop2.java
+
         y3=input.nextDouble () ;  
         System.out.println ("__________") ;        
         //***
@@ -69,13 +69,13 @@ public class Season4_Workshop2 {
         B=(int)(B*100)/100.0 ;
         C=(int)(C*100)/100.0 ;        
         //***
-=======
+
         pointy3=input.nextDouble () ;  
         
         
-        pointa=Math.pow ((Math.pow ((pointx2-pointx1),2))+(Math.pow ((pointy2-pointy1),2)),0.5) ;
-        pointb=Math.pow ((Math.pow ((pointx3-pointx1),2))+(Math.pow ((pointy3-pointy1),2)),0.5) ;
-        pointc=Math.pow ((Math.pow ((pointx3-pointx2),2))+(Math.pow ((pointy3-pointy2),2)),0.5) ;
+        pointa=Math.pow ((Math.pow ((x2-x1),2))+(Math.pow ((y2-y1),2)),0.5) ;
+        pointb=Math.pow ((Math.pow ((x3-x1),2))+(Math.pow ((y3-y1),2)),0.5) ;
+        pointc=Math.pow ((Math.pow ((x3-x2),2))+(Math.pow ((pointy3-y2),2)),0.5) ;
         
         pointa=(int)(pointa*100)/100.0 ;
         pointb=(int)(pointb*100)/100.0 ;
@@ -92,7 +92,7 @@ public class Season4_Workshop2 {
         System.out.println (pointa+","+pointb+","+pointc) ;
         System.out.println (pointA+","+pointB+","+pointC) ;
         
->>>>>>> 5a679b402bf3bafbf6914922589fce433c35b347:AUSMT_Winter_99/src/workshop2.java
+
         System.out.print ("The type of triangle is equal to : ") ;
         
         if (pointa==pointb && pointa==pointc && pointb==pointc) {
