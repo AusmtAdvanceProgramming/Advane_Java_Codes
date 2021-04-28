@@ -20,23 +20,26 @@ public class Q2 {
         Scanner input = new Scanner(System.in);
         
         double money;
-        double years;
         double profit;
-        
-        System.out.print("Input primary money: ");
-        
-        money = input.nextDouble();
-        
-        System.out.print("Input interest rates: ");
+        double n;
+        int year;
+        int month;
 
-        profit = input.nextDouble();
-        
+        System.out.print("Input primary money: ");
+        money=input.nextDouble ();
+        System.out.print("Input interest rates: ");
+        profit=input.nextDouble ();
+
         profit = 1 + (profit / 100);
-        
-        years = (int)((Math.log(2)) / (Math.log(profit)) * 10) / 10.0 ;
-        
-        System.out.println(years);        
-        
+        n = (int)(((Math.log(2)) / (Math.log(profit))) * 10) / 10.0 ;
+
+        year = (int)n;
+        month = (int) ((n - year) * 10 );
+
+        month = (int)(month * 12 / 10);
+
+        System.out.println ("Your money will double After " + year + " years and " + month + " months.") ;
+
         // TODO code application logic here
     }
 }
