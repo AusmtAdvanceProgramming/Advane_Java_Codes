@@ -14,9 +14,9 @@ public class Q2 {
         //***
         double deposit ;
         double profit ;
-        double storage ;
-        double extra ;
-        int year=0 ;
+        double year ;
+        double tempo1 ;
+        double tempo2 ;
         //***
         System.out.println ("____________________") ;
         System.out.print ("Enter the initial amount of your deposit please : $") ;
@@ -25,21 +25,15 @@ public class Q2 {
         profit=input.nextDouble () ;
         System.out.println ("__________") ;
         //***
-        storage=deposit*2 ;
+        profit=1+(profit/100) ;
+        year=(int) (((Math.log(2))/(Math.log(profit)))*10)/10.0 ;
         //***
-        while (deposit<storage) {
-            deposit=deposit+((deposit*profit)/100) ;
-            year++ ;
-        }
+        tempo1=(int) year ;
+        tempo2=year-tempo1 ;
         //***
-        extra=deposit-storage ;
+        tempo2=(int) (tempo2*12) ;
         //***
-        System.out.println ("After \""+year+"\" years your deposit will double") ;
-        //***
-        if (extra>0) {
-            System.out.println ("Now you have \"$"+extra+"\" more than double your deposit") ;
-        }
-        //***
+        System.out.println ("After \""+tempo1+"\" years and \""+tempo2+"\" months your deposit will double") ;
         System.out.println ("____________________") ;
     }
 }
