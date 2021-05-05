@@ -6,8 +6,6 @@
  * @author Kamyab Ashouri
  * @author Fatemeh Naiji
  */
-import javax.swing.JOptionPane ;
-//***
 public class Workshop4_3 {
     public static void main (String[] args) {
         char[] string0=new char[5] ;
