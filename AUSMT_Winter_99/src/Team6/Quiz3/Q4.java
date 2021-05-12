@@ -56,19 +56,7 @@ public class Q4 {
 
       result = binarySearch(array, number, 0, arraySize - 1);
       
-      if (result != -1){
-              for(int i = 0; i < array.length; i++){
-              if ( i % 10 == 0){
-                  System.out.println();
-              }
-              System.out.print(array[i] + "\t");
-              
-          }
-              int place;
-              place = result +1;       
-              System.out.println("\n\n*** " + number + " was found in index " + place + " ***");
-      }
-      else {
+if (result == -1){
               for(int i = 0; i < array.length; i++){
               if ( i % 10 == 0){
                   System.out.println();
@@ -79,6 +67,18 @@ public class Q4 {
               System.out.println("\n*** " + number + " was not found in array ***");
       }
       
+      else{
+              for(int i = 0; i < array.length; i++){
+              if ( i % 10 == 0){
+                  System.out.println();
+              }
+              System.out.print(array[i] + "\t");
+              
+          }
+              int place;
+              place = result +1;       
+              System.out.println("\n\n*** " + number + " was found in index " + place + " ***");
+      } 
       System.out.println();
       System.out.println("Done.");
 
