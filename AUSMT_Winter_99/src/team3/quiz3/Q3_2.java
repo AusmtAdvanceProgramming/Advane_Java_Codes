@@ -35,12 +35,12 @@ public class Q3_2 {
         
         int number1 = 0;
        
-        array1 = String_Chop(input1);
+        array1 = chopString(input1);
         side = input2.charAt(0);
         number1 = Integer.parseInt(input3);
         
         if (side=='r') {
-            output = Shift_Right(array1,number1);
+            output = shiftToRight(array1,number1);
          
            System.out.println ("****************************");
            
@@ -73,7 +73,7 @@ public class Q3_2 {
         } 
         
         else if (side=='l') {
-            output = Shift_Left (array1,number1) ;
+            output = shiftToLeft (array1,number1) ;
            
            System.out.println ("********************************");
            
@@ -112,7 +112,7 @@ public class Q3_2 {
         } 
     } // end of main () method
         
-      public static char[] String_Chop (String string) {
+      public static char[] chopString (String string) {
         char[] array2=new char[string.length ()] ;
         int i=0 ;
         
@@ -123,7 +123,7 @@ public class Q3_2 {
         return array2;
         
     } // end of String_Chop () method
-    public static char[] Shift_Right(char[] array3,int number2) {
+    public static char[] shiftToRight(char[] array3,int number2) {
         char backup1 ;
         int move1 = 0 ;
         
@@ -141,7 +141,7 @@ public class Q3_2 {
         return array3 ;
     } // end of Shift_Right () method
     
-    public static char[] Shift_Left(char[] array4,int number3) {
+    public static char[] shiftToLeft(char[] array4,int number3) {
         char backup2 ;
         int move2=0 ;
         
