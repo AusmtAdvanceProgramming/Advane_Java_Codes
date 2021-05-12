@@ -24,85 +24,235 @@ public class tamrin3_quiz3 {
     public static void craete_show_array(int array_size) {
         char[] array = new char[array_size];
         for (int c = 0; c < array_size; c++) {
-            int num = ((int) (Math.random() * 100)) % 26;
-            switch (num) {
+            int num_1 = ((int) (Math.random() * 1000)) % 35;
+            int num_2 = ((int) (Math.random() * 10)) % 2;
+            switch (num_1) {
                 case 0 :
-                    array[c] = 'a';
+                    if (num_2 == 1) {
+                        array[c] = 'a';
+                    }
+                    else {
+                        array[c] = 'A';
+                    }
                     break;
                 case 1 :
-                    array[c] = 'b';
-                    break;
-                case 2 :
-                    array[c] = 'c';
+                    if (num_2 == 1) {
+                        array[c] = 'b';
+                    }
+                    else {
+                        array[c] = 'B';
+                    }
                     break;
                 case 3 :
-                    array[c] = 'd';
+                    if (num_2 == 1) {
+                        array[c] = 'c';
+                    }
+                    else {
+                        array[c] = 'C';
+                    }
                     break;
                 case 4 :
-                    array[c] = 'e';
+                    if (num_2 == 1) {
+                        array[c] = 'd';
+                    }
+                    else {
+                        array[c] = 'D';
+                    }
                     break;
                 case 5 :
-                    array[c] = 'f';
+                    if (num_2 == 1) {
+                        array[c] = 'e';
+                    }
+                    else {
+                        array[c] = 'E';
+                    }
                     break;
                 case 6 :
-                    array[c] = 'g';
+                    if (num_2 == 1) {
+                        array[c] = 'f';
+                    }
+                    else {
+                        array[c] = 'F';
+                    }
                     break;
                 case 7 :
-                    array[c] = 'h';
+                    if (num_2 == 1) {
+                        array[c] = 'g';
+                    }
+                    else {
+                        array[c] = 'G';
+                    }
                     break;
                 case 8 :
-                    array[c] = 'i';
+                    if (num_2 == 1) {
+                        array[c] = 'h';
+                    }
+                    else {
+                        array[c] = 'H';
+                    }
                     break;
                 case 9 :
-                    array[c] = 'j';
+                    if (num_2 == 1) {
+                        array[c] = 'i';
+                    }
+                    else {
+                        array[c] = 'I';
+                    }
                     break;
                 case 10 :
-                    array[c] = 'k';
+                    if (num_2 == 1) {
+                        array[c] = 'j';
+                    }
+                    else {
+                        array[c] = 'J';
+                    }
                     break;
                 case 11 :
-                    array[c] = 'm';
+                    if (num_2 == 1) {
+                        array[c] = 'k';
+                    }
+                    else {
+                        array[c] = 'K';
+                    }
                     break;
                 case 12 :
-                    array[c] = 'n';
+                    if (num_2 == 1) {
+                        array[c] = 'm';
+                    }
+                    else {
+                        array[c] = 'M';
+                    }
                     break;
                 case 13 :
-                    array[c] = 'l';
+                    if (num_2 == 1) {
+                        array[c] = 'n';
+                    }
+                    else {
+                        array[c] = 'N';
+                    }
                     break;
                 case 14 :
-                    array[c] = 'o';
+                    if (num_2 == 1) {
+                        array[c] = 'o';
+                    }
+                    else {
+                        array[c] = 'O';
+                    }
                     break;
                 case 15 :
-                    array[c] = 'p';
+                    if (num_2 == 1) {
+                        array[c] = 'p';
+                    }
+                    else {
+                        array[c] = 'P';
+                    }
                     break;
                 case 16 :
-                    array[c] = 'q';
+                    if (num_2 == 1) {
+                        array[c] = 'q';
+                    }
+                    else {
+                        array[c] = 'Q';
+                    }
                     break;
                 case 17 :
-                    array[c] = 'r';
+                    if (num_2 == 1) {
+                        array[c] = 'r';
+                    }
+                    else {
+                        array[c] = 'R';
+                    }
                     break;
                 case 18 :
-                    array[c] = 's';
+                    if (num_2 == 1) {
+                        array[c] = 's';
+                    }
+                    else {
+                        array[c] = 'S';
+                    }
                     break;
                 case 19 :
-                    array[c] = 't';
+                    if (num_2 == 1) {
+                        array[c] = 't';
+                    }
+                    else {
+                        array[c] = 'T';
+                    }
                     break;
                 case 20 :
-                    array[c] = 'u';
+                    if (num_2 == 1) {
+                        array[c] = 'u';
+                    }
+                    else {
+                        array[c] = 'U';
+                    }
                     break;
                 case 21 :
-                    array[c] = 'v';
+                    if (num_2 == 1) {
+                        array[c] = 'v';
+                    }
+                    else {
+                        array[c] = 'V';
+                    }
                     break;
                 case 22 :
-                    array[c] = 'w';
+                    if (num_2 == 1) {
+                        array[c] = 'w';
+                    }
+                    else {
+                        array[c] = 'W';
+                    }
                     break;
                 case 23 :
-                    array[c] = 'x';
+                    if (num_2 == 1) {
+                        array[c] = 'x';
+                    }
+                    else {
+                        array[c] = 'X';
+                    }
                     break;
                 case 24 :
-                    array[c] = 'y';
+                    if (num_2 == 1) {
+                        array[c] = 'y';
+                    }
+                    else {
+                        array[c] = 'Y';
+                    }
                     break;
                 case 25 :
-                    array[c] = 'z';
+                    if (num_2 == 1) {
+                        array[c] = 'z';
+                    }
+                    else {
+                        array[c] = 'Z';
+                    }
+                    break;
+                case 26 :
+                    array[c] = '1';
+                    break;
+                case 27 :
+                    array[c] = '2';
+                    break;
+                case 28 :
+                    array[c] = '3';
+                    break;
+                case 29 :
+                    array[c] = '4';
+                    break;
+                case 30 :
+                    array[c] = '5';
+                    break;
+                case 31 :
+                    array[c] = '6';
+                    break;
+                case 32 :
+                    array[c] = '7';
+                    break;
+                case 33 :
+                    array[c] = '8';
+                    break;
+                case 34 :
+                    array[c] = '9';
                     break;
             }
         }
