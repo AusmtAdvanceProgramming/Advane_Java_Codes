@@ -14,7 +14,7 @@ public class Q0 {
         double maximum = Double.NEGATIVE_INFINITY;
         double minimum = Double.POSITIVE_INFINITY;
         double sum = 0;
-        int i = 1;
+
         while (loop == 'y') {
             String input1 = JOptionPane.showInputDialog(null, "Enter your intended number: ", "Number input",JOptionPane.QUESTION_MESSAGE);
             number = Double.parseDouble(input1);
