@@ -11,6 +11,9 @@ public static void main (String[] args) {
         
         while (confirm=='y') {
 
+
+
+
             String input1=JOptionPane.showInputDialog (null,"Enter your desired number please :",
             "Number input",JOptionPane.QUESTION_MESSAGE) ;
             num=Double.parseDouble (input1) ;
