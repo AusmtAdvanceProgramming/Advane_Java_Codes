@@ -1,14 +1,50 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+     Haniyeh Hadiyan _ Hossein Rahi
+
  */
 package team1.workshop5;
 
-/**
- *
- * @author Win 10
- */
+
 public class Master {
+    
+    char Name ;
+    char LastName ; 
+    int Age  ; 
+    char NameOfCourse ;  
+    int Height ;  
+    
+    public Master(){
+        
+    }
+    
+    public int getHeight(int a){
+        Height = a;
+        return a;
+    }    
+    
+    public char NameOfCourse (char h){
+        NameOfCourse = h;
+        return NameOfCourse;
+    }  
+    
+    public char getname(char c) {
+        
+        Name = c;
+        return  Name ;
+        
+    }  
+    
+    public char getLastname(char d) {
+        
+        LastName = d;
+        return  LastName ;
+        
+    }  
+    
+    public int getAge(int b){
+        Age=b;
+        return Age;
+        
+    } 
     
 }
