@@ -10,9 +10,9 @@ public class App {
         // get deposit & profit
         System.out.println("Enter your deposit (toman):");
         Scanner input = new Scanner(System.in);
-        int main_deposit = input.nextInt();
+        double main_deposit = input.nextDouble();
         System.out.println("Enter your profit :(per 100)");
-        int profit = input.nextInt();
+        double profit = input.nextDouble();
         // calculate the year of profit
         double deposit = main_deposit;
         int year = 0;
