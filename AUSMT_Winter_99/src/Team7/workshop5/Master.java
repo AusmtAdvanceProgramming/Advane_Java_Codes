@@ -7,7 +7,7 @@ package Team7.workshop5;
 
 /**
  *
- * @author soroush
+ * @author team7
  */
 public class Master {
     
