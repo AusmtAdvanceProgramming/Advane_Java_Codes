@@ -8,7 +8,7 @@ package team4.Workshop5 ;
  */
 public class Room {
     private String universityName ;
-    private String nameOfCorrider ;
+    private String nameOfCorridor ;
     private boolean coeducational ;
     private int capacity ;
     private int floorNumber ;
@@ -20,10 +20,10 @@ public class Room {
         universityName=a ;
         return universityName ;
     } // end of getUniversityName () method
-    public String getNameOfCorrider (String b) {
-        nameOfCorrider=b ;
-        return nameOfCorrider ;
-    } // end of getNameOfCorrider () method
+    public String getNameOfCorridor (String b) {
+        nameOfCorridor=b ;
+        return nameOfCorridor ;
+    } // end of getNameOfCorridor () method
     public boolean getCoeducational (boolean c) {
         coeducational=c ;
         return coeducational ;
