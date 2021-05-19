@@ -6,7 +6,7 @@ public class course {
     private int numebrOfUnit;
     private String masterName;
     //****************************************
-    course(){
+    public course(){
     }
     public String getCourseName(String a){
         a= courseName;

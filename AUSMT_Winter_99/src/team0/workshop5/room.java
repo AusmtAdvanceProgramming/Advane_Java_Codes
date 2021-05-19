@@ -8,7 +8,7 @@ public class room {
     private int numberOfStudent;
     //*******************************************
     
-    room(){
+   public room(){
     }
     public double getSize(double a){
         a= size;
