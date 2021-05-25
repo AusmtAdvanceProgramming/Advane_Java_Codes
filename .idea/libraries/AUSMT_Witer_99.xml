@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AUSMT_Witer_99">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AUSMT_Winter_99/dist/AUSMT_Witer_99.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

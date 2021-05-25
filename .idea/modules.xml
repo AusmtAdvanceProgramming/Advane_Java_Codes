@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Advane_Java_Codes.iml" filepath="$PROJECT_DIR$/Advane_Java_Codes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Tamrin/Tamrin.iml" filepath="$PROJECT_DIR$/Tamrin/Tamrin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AUSMT_Winter_99/src/AUSMT_Winter_991.iml" filepath="$PROJECT_DIR$/AUSMT_Winter_99/src/AUSMT_Winter_991.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AUSMT_Winter_99/AUSMT_Winter_993.iml" filepath="$PROJECT_DIR$/AUSMT_Winter_99/AUSMT_Winter_993.iml" />
     </modules>
   </component>
 </project>
